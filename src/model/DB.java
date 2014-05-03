@@ -29,7 +29,7 @@ public final class DB {
         }
         return con;
     }
-
+//Get data from DataBase...
     public static ResultSet getResultset(String sql) throws Exception {
      
         return getmyCon().createStatement().executeQuery(sql);
